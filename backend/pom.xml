@@ -32,7 +32,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>31.0.1-jre</version>
+            <version>32.0.0-jre</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -504,8 +504,7 @@
                                                 <exclude name="*.html"/>
                                             </fileset>
                                         </copy>
-                                        <copy file="../mobile/dist/index.html"
-                                              tofile="src/main/resources/templates/app.html"/>
+                                        <copy file="../mobile/dist/index.html" tofile="src/main/resources/templates/app.html"/>
                                     </target>
                                 </configuration>
                                 <goals>
