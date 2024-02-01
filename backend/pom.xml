@@ -205,7 +205,7 @@
         <dependency>
             <groupId>io.dataease</groupId>
             <artifactId>dataease-plugin-interface</artifactId>
-            <version>1.15.0</version>
+            <version>1.18.15</version>
             <exclusions>
                 <exclusion>
                     <artifactId>guava</artifactId>
@@ -216,12 +216,12 @@
         <dependency>
             <groupId>io.dataease</groupId>
             <artifactId>dataease-plugin-view</artifactId>
-            <version>1.15.0</version>
+            <version>1.18.15</version>
         </dependency>
         <dependency>
             <groupId>io.dataease</groupId>
             <artifactId>dataease-plugin-datasource</artifactId>
-            <version>1.15.0</version>
+            <version>1.18.15</version>
         </dependency>
         <!-- kettle及数据源依赖 -->
         <dependency>
@@ -504,8 +504,7 @@
                                                 <exclude name="*.html"/>
                                             </fileset>
                                         </copy>
-                                        <copy file="../mobile/dist/index.html"
-                                              tofile="src/main/resources/templates/app.html"/>
+                                        <copy file="../mobile/dist/index.html" tofile="src/main/resources/templates/app.html"/>
                                     </target>
                                 </configuration>
                                 <goals>
